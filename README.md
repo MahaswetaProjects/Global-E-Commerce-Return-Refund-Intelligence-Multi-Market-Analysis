@@ -25,48 +25,6 @@ Built a 3-page interactive Power BI dashboard for executive-level stakeholder re
 ## Tech Stack
 CategoryToolsLanguagePython 3.10+Data ManipulationPandas, NumPyVisualizationMatplotlib, SeabornDatabaseSQLite via sqlite3DashboardPower BI DesktopEnvironmentGoogle Colab / Jupyter NotebookVersion ControlGit, GitHub
 
-## Project Structure
-global-ecommerce-return-analysis/
-│
-├── data/
-│   ├── online_retail_II.csv
-│   ├── olist_orders_dataset.csv
-│   ├── olist_order_items_dataset.csv
-│   ├── olist_products_dataset.csv
-│   ├── olist_customers_dataset.csv
-│   ├── olist_sellers_dataset.csv
-│   ├── olist_order_reviews_dataset.csv
-│   ├── olist_order_payments_dataset.csv
-│   ├── product_category_name_translation.csv
-│   └── E Commerce.csv
-│
-├── notebooks/
-│   └── global_ecommerce_returns_analysis.py
-│
-├── sql/
-│   └── sql_queries_explained.md
-│
-├── dashboard/
-│   └── Global_Ecommerce_Dashboard.pbix
-│
-├── outputs/
-│   ├── uk_monthly_returns.png
-│   ├── uk_top_returned_products.png
-│   ├── uk_country_returns.png
-│   ├── uk_timing_patterns.png
-│   ├── brazil_order_status.png
-│   ├── brazil_delay_vs_review.png
-│   ├── brazil_category_analysis.png
-│   ├── brazil_state_performance.png
-│   ├── brazil_monthly_cancellations.png
-│   ├── logistics_warehouse.png
-│   ├── logistics_shipment_mode.png
-│   ├── logistics_product_importance.png
-│   ├── logistics_discount_weight.png
-│   └── cross_market_dashboard.png
-│
-└── README.md
-
 ## Analysis Breakdown
 UK Market — Return & Refund Analysis
 
